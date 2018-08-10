@@ -7,7 +7,6 @@
 .DS_Store
 dist/
 coverage/
-.cache/
 /tests/e2e/videos/
 /tests/e2e/screenshots/
 
@@ -205,7 +204,7 @@ _pkginfo.txt
 # files ending in .cache can be ignored
 *.[Cc]ache
 # but keep track of directories ending in .cache
-!*.[Cc]ache/
+#!*.[Cc]ache/
 
 # Others
 ClientBin/
