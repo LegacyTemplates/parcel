@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{{title}}</title>
+    <link rel="stylesheet" href="css/default.css">
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+</head>
+<body>
+
+    <i hidden>{{ '/js/hot-fileloader.js' | ifDebugIncludeScript }}</i>
+    <i hidden><a href="_parcel-links.html"></a></i>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a title="ServiceStack WebApp Starter" class="navbar-brand" href="/" style="width:220px;">
+                <img src="img/logo.png" width="42" height="32" class="d-inline-block align-top" alt="" style="float:left;margin:0 10px 0 0">
+                <h3>MyApp</h3>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
+                aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            {{ '_menu-partial' | partial }}
+        </div>
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+        <div class="row">
+        <div class="col-lg-12 text-center">
+            <h1 class="mt-5">{{ title }}</h1>
+            {{ page }}
+        </div>
+        </div>
+    </div>
+
+    <h4 style="position:absolute; bottom: 20px; width: 100%; text-align: center">
+        <a href="https://servicestack.net/vs-templates/parcel">Learn about this Website Template</a>
+    </h4>
+
+    <script src="main.ts"></script>
+
+    {{ scripts | raw }}
+
+</body>
+</html>

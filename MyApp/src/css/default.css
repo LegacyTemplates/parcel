@@ -1,0 +1,17 @@
+@import '../../node_modules/bootstrap/dist/css/bootstrap.css';
+
+.bg-dark {
+    background: #21374B;
+}
+.bg-dark, .navbar-dark .navbar-nav .active > .nav-link, .bg-dark h3 {
+    color: #E7DACB;
+}
+
+body {
+    padding-top: 54px;
+}
+@media (min-width: 992px) {
+    body {
+        padding-top: 56px;
+    }
+}
