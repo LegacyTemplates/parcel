@@ -12,7 +12,7 @@
 
 ## About
 
-[https://parceljs.org](Parcel) provides the simplest out of the box development experience for developing npm-powered Web Apps which is pre-configured with [popular auto transforms](https://parceljs.org/transforms.html) for developing modern Web Apps. Parcel works by inspecting your `*.html` files to find all its dependencies which it automatically monitors for changes and bundles using advanced minification and bundling techniques.
+[https://parceljs.org](Parcel) provides the simplest and config-free out-of-the-box development experience for developing npm-powered Web Apps which is pre-configured with [popular auto transforms](https://parceljs.org/transforms.html) for developing modern Web Apps. Parcel works by inspecting your `*.html` files to find all its dependencies which it automatically monitors for changes and bundles using advanced minification and bundling techniques.
 
 To enable a pleasant development experience this template is pre-configured with the latest version of TypeScript enabling access to the latest ES7/TypeScript features.
 
