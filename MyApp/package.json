@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "postinstall": "npm run build",
     "dev": "node scripts/pre-build.js && parcel watch src/_layout.html -d wwwroot",
     "build": "node scripts/pre-build.js && parcel build src/_layout.html -d wwwroot",
     "publish": "npm run build && dotnet publish -c Release",
