@@ -12,9 +12,22 @@
 
 ## About
 
-[https://parceljs.org](Parcel) provides the simplest and config-free out-of-the-box development experience for developing npm-powered Web Apps which is pre-configured with [popular auto transforms](https://parceljs.org/transforms.html) for developing modern Web Apps. Parcel works by inspecting your `*.html` files to find all its dependencies which it automatically monitors for changes and bundles using advanced minification and bundling techniques.
+[Parcel](https://parceljs.org) aims to provide the simplest config-free out-of-the-box development experience for developing modern npm-powered 
+Web Apps by getting out of your way and letting you develop Websites without any regard for bundling solution or JS Framework. To enlist its 
+functionality you just point it to your home page:
 
-To enable a pleasant development experience this template is pre-configured with the latest version of TypeScript enabling access to the latest ES7/TypeScript features.
+    $ parcel index.html
+
+This starts a Live Hot Reload Server which inspects all linked `*.html`, script and stylesheet resources to find all dependencies which it automatically 
+monitors for changes where it will automatically rebuild and reload your webpage. Then when it's time for deployment you can perform a production build
+for your website with the `build` command:
+
+    $ parcel build index.html
+
+Where it creates an optimized bundle using advanced minification, compilation and bundling techniques. Despite its instant utility and zero configuration,
+it comes pre-configured with [popular auto transforms](https://parceljs.org/transforms.html) for developing modern Web Apps which lets you utilize 
+PostCSS transforms and advanced transpilers like TypeScript which this Template uses to enable a pleasant development experience by enabling access to
+the latest ES7/TypeScript language features.
 
 This template starts from a clean slate which does not use any of the [popular JavaScript framework templates](https://github.com/NetCoreTemplates) making it ideal when wanting to use other [micro JS libraries](http://microjs.com) that can be referenced using a simple script include.
 
@@ -39,13 +52,16 @@ document.querySelector("#Name")!.addEventListener("input", async e => {
 });
 ```
 
+This template includes customizatinos for integrating with .NET Core project conventions and [ServiceStack Templates](http://templates.servicestack.net) for its 
+dynamic Web Pages and server-side HTML rendering.
+
 ## Development workflow
 
 If this is the first time using Parcel, you will need to install its global CLI:
 
     $ npm install -g parcel-bundler
 
-Our recommendation during development is to run the `dev` npm script or Gulp task and leave it running in the background:
+Our recommendation during development is to run the `dev` npm script and leave it running in the background:
 
     $ npm run dev
 
@@ -61,7 +77,7 @@ Each change updates the output dev resources so even if you stop the dev task yo
 
 ### Create a production build
 
-Run the `build` npm script or gulp task to generate a static production build of your App saved to your .NET App's `/wwwroot` folder:
+Run the `build` npm script to generate a static production build of your App saved to your .NET App's `/wwwroot` folder:
 
     $ npm run build
 
@@ -69,7 +85,7 @@ This will let you run the production build of your App that's hosted by your .NE
 
 ### Updating Server TypeScript DTOs
 
-Run the `dtos` npm script or Gulp task to update your server dtos in `/src/dtos.ts`:
+Run the `dtos` npm script to update your server dtos in `/src/dtos.ts`:
 
     $ npm run dtos
 
