@@ -52,7 +52,7 @@ document.querySelector("#Name")!.addEventListener("input", async e => {
 });
 ```
 
-This template includes customizatinos for integrating with .NET Core project conventions and [ServiceStack Templates](http://templates.servicestack.net) for its 
+This template includes customizatinos for integrating with .NET Core project conventions and [Sharp Pages](https://sharpscript.net) for its 
 dynamic Web Pages and server-side HTML rendering.
 
 ## Development workflow
