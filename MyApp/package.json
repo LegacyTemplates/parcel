@@ -11,12 +11,12 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "@servicestack/client": "^1.0.29",
+    "@servicestack/client": "^1.0.31",
     "bootstrap": "^4.3.1",
-    "tslib": "^1.9.3"
+    "tslib": "^1.10.0"
   },
   "devDependencies": {
     "cssnano": "^4.1.10",
-    "typescript": "^3.4.5"
+    "typescript": "^3.5.3"
   }
 }

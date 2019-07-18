@@ -5,9 +5,9 @@
   "requires": true,
   "dependencies": {
     "@servicestack/client": {
-      "version": "1.0.20",
-      "resolved": "https://registry.npmjs.org/@servicestack/client/-/client-1.0.20.tgz",
-      "integrity": "sha512-vAxt2pH0pNDGfSGSHAC7KjUHEORE+22/A3QZPmjJHO6D/KjryxKqWeFOVVO7WDL4lryatNrO2EWsyJJlgWCFgg==",
+      "version": "1.0.31",
+      "resolved": "https://registry.npmjs.org/@servicestack/client/-/client-1.0.31.tgz",
+      "integrity": "sha512-RlS90BxW+0D8zM3JJIykLWTQ4X07CloezkDq1jgEf8vEH4flQkQJzHp7CrPhRu1yr0QXpFJV6pWBa56xv6pQDQ==",
       "requires": {
         "es6-shim": "^0.35.4",
         "eventsource": "^1.0.7",
@@ -1295,14 +1295,14 @@
       "dev": true
     },
     "tslib": {
-      "version": "1.9.3",
-      "resolved": "https://registry.npmjs.org/tslib/-/tslib-1.9.3.tgz",
-      "integrity": "sha512-4krF8scpejhaOgqzBEcGM7yDIEfi0/8+8zDRZhNZZ2kjmHJ4hv3zCbQWxoJGz1iw5U0Jl0nma13xzHXcncMavQ=="
+      "version": "1.10.0",
+      "resolved": "https://registry.npmjs.org/tslib/-/tslib-1.10.0.tgz",
+      "integrity": "sha512-qOebF53frne81cf0S9B41ByenJ3/IuH8yJKngAX35CmiZySA0khhkovshKK+jGCaMnVomla7gVlIcc3EvKPbTQ=="
     },
     "typescript": {
-      "version": "3.4.5",
-      "resolved": "https://registry.npmjs.org/typescript/-/typescript-3.4.5.tgz",
-      "integrity": "sha512-YycBxUb49UUhdNMU5aJ7z5Ej2XGmaIBL0x34vZ82fn3hGvD+bgrMrVDpatgz2f7YxUMJxMkbWxJZeAvDxVe7Vw==",
+      "version": "3.5.3",
+      "resolved": "https://registry.npmjs.org/typescript/-/typescript-3.5.3.tgz",
+      "integrity": "sha512-ACzBtm/PhXBDId6a6sDJfroT2pOWt/oOnk4/dElG5G33ZL776N3Y6/6bKZJBFpd+b05F3Ct9qDjMeJmRWtE2/g==",
       "dev": true
     },
     "uniq": {
@@ -1324,11 +1324,11 @@
       "dev": true
     },
     "url-parse": {
-      "version": "1.4.6",
-      "resolved": "https://registry.npmjs.org/url-parse/-/url-parse-1.4.6.tgz",
-      "integrity": "sha512-/B8AD9iQ01seoXmXf9z/MjLZQIdOoYl/+gvsQF6+mpnxaTfG9P7srYaiqaDMyKkR36XMXfhqSHss5MyFAO8lew==",
+      "version": "1.4.7",
+      "resolved": "https://registry.npmjs.org/url-parse/-/url-parse-1.4.7.tgz",
+      "integrity": "sha512-d3uaVyzDB9tQoSXFvuSUNFibTd9zxd2bkVrDRvF5TmvWWQwqE4lgYJ5m+x1DbecWkw+LK4RNl2CU1hHuOKPVlg==",
       "requires": {
-        "querystringify": "^2.0.0",
+        "querystringify": "^2.1.1",
         "requires-port": "^1.0.0"
       }
     },
