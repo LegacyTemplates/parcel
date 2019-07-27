@@ -10,6 +10,10 @@
 body {
     padding-top: 54px;
 }
+.form-check.form-control {
+    padding-left: 1.75rem;
+    height: auto;
+}
 @media (min-width: 992px) {
     body {
         padding-top: 56px;
