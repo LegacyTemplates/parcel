@@ -6,9 +6,9 @@
 
 > Browse [source code](https://github.com/NetCoreTemplates/parcel), view live demo [parcel.web-templates.io](http://parcel.web-templates.io) and install with [dotnet-new](http://docs.servicestack.net/dotnet-new):
 
-    $ dotnet tool install -g web
+    $ dotnet tool install -g x
 
-    $ web new parcel ProjectName
+    $ x new parcel ProjectName
 
 ## About
 
