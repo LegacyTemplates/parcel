@@ -7,7 +7,7 @@
     "dev": "node scripts/pre-build.js && parcel watch src/_layout.html -d wwwroot",
     "build": "node scripts/pre-build.js && parcel build src/_layout.html -d wwwroot",
     "publish": "npm run build && dotnet publish -c Release",
-    "dtos": "cd src && typescript-ref",
+    "dtos": "cd src && x typescript",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
