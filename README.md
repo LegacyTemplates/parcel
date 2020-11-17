@@ -1,6 +1,6 @@
 # parcel
 
-.NET Core 5.0 Parcel TypeScript Bootstrap App
+.NET 5.0 Parcel TypeScript Bootstrap App
 
 [![](https://raw.githubusercontent.com/ServiceStack/Assets/master/csharp-templates/parcel.png)](http://parcel.web-templates.io/)
 
