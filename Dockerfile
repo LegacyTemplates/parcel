@@ -15,5 +15,5 @@ RUN dotnet publish -c release -o /out --no-restore
 
 FROM mcr.microsoft.com/dotnet/aspnet:5.0 AS runtime
 WORKDIR /out
-COPY --from=build /app ./
+COPY --from=build /out ./
 ENTRYPOINT ["dotnet", "MyApp.dll"]
