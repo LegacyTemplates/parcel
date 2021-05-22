@@ -10,6 +10,12 @@
 
     $ x new parcel ProjectName
 
+Alternatively write new project files directly into an empty repository, using the Directory Name as the ProjectName:
+
+    $ git clone https://github.com/<User>/<ProjectName>.git
+    $ cd <ProjectName>
+    $ x new parcel
+
 ## About
 
 [Parcel](https://parceljs.org) aims to provide the simplest config-free out-of-the-box development experience for developing modern npm-powered 
