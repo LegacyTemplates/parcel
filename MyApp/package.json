@@ -4,20 +4,20 @@
   "private": true,
   "scripts": {
     "postinstall": "npm run build",
-    "dev": "node scripts/pre-build.js && parcel watch src/_layout.html -d wwwroot",
-    "build": "node scripts/pre-build.js && parcel build src/_layout.html -d wwwroot",
+    "dev": "node scripts/pre-build.js && parcel watch src/_layout.html --dist-dir wwwroot",
+    "build": "node scripts/pre-build.js && parcel build src/_layout.html --dist-dir wwwroot",
     "publish": "npm run build && dotnet publish -c Release",
     "dtos": "cd src && x typescript",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "@servicestack/client": "^1.0.51",
-    "bootstrap": "^4.5.0",
-    "tslib": "^2.0.0"
+    "@servicestack/client": "^1.0.54",
+    "bootstrap": "^5.0.1",
+    "tslib": "^2.2.0"
   },
   "devDependencies": {
-    "cssnano": "^4.1.10",
-    "parcel-bundler": "^1.12.4",
-    "typescript": "^3.9.5"
+    "cssnano": "^5.0.5",
+    "parcel": "^2.0.0-beta.2",
+    "typescript": "^4.3.2"
   }
 }
