@@ -11,7 +11,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "@servicestack/client": "^1.0.54",
+    "@servicestack/client": "^1.0.57",
     "bootstrap": "^5.0.1",
     "tslib": "^2.2.0"
   },
