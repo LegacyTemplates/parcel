@@ -22,8 +22,6 @@ public class AppHost : AppHostBase, IHostingStartup
 
     public override void Configure(Container container)
     {
-        RawHttpHandlers.Add(ApiHandlers.Json("/api/{Request}"));
-        
         // enable server-side rendering, see: https://sharpscript.net/docs/sharp-pages
         Plugins.Add(new SpaFeature {
             EnableSpaFallback = true
