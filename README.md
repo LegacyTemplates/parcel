@@ -8,13 +8,13 @@
 
     $ dotnet tool install -g x
 
-    $ x new parcel ProjectName
+    $ x new LegacyTemplates/parcel ProjectName
 
 Alternatively write new project files directly into an empty repository, using the Directory Name as the ProjectName:
 
     $ git clone https://github.com/<User>/<ProjectName>.git
     $ cd <ProjectName>
-    $ x new parcel
+    $ x new LegacyTemplates/parcel
 
 ## About
 
